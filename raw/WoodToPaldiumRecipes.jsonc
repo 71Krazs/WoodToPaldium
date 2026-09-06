@@ -1,0 +1,36 @@
+// Wood to Paldium Crusher
+//
+// Adds Paldium Fragment recipes for every current wood material. The output's
+// existing MaterialOre / Rank 2 properties make these recipes available at the
+// regular Crusher and the Cryogenic Crusher without changing either structure.
+{
+  "DT_ItemRecipeDataTable": {
+    "WoodToPaldium_Wood": {
+      "Product_Id": "Pal_crystal_S",
+      "Product_Count": 1,
+      "WorkAmount": 1000.0,
+      "WorkableAttribute": 1,
+      "UnlockItemID": "None",
+      "Material1_Id": "Wood",
+      "Material1_Count": 10
+    },
+    "WoodToPaldium_Hardwood": {
+      "Product_Id": "Pal_crystal_S",
+      "Product_Count": 1,
+      "WorkAmount": 1000.0,
+      "WorkableAttribute": 1,
+      "UnlockItemID": "None",
+      "Material1_Id": "Wood_Fine",
+      "Material1_Count": 5
+    },
+    "WoodToPaldium_MythicalWood": {
+      "Product_Id": "Pal_crystal_S",
+      "Product_Count": 1,
+      "WorkAmount": 1000.0,
+      "WorkableAttribute": 1,
+      "UnlockItemID": "None",
+      "Material1_Id": "Wood_WorldTree",
+      "Material1_Count": 1
+    }
+  }
+}
